@@ -18,5 +18,6 @@ from django.urls import path
 from dailyfresh import views
 
 urlpatterns = [
-    path('index/',views.index),
+    path('index/', views.index),
+    path('reg/', views.reg),
 ]
