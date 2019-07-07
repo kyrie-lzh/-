@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render,HttpResponse
 
 
 def index(request):
@@ -16,6 +16,5 @@ def reg(request):
     :param request:
     :return:
     """
-
 
     return HttpResponse("登陆页面")
