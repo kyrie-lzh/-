@@ -9,4 +9,12 @@ def index(request):
     """
     return HttpResponse("欢迎来到首页")
 
+def reg(request):
+    """
+    登陆
+    :param request:
+    :return:
+    """
+
+    return HttpResponse("欢迎来到首页")
 
