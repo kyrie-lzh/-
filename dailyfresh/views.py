@@ -17,4 +17,5 @@ def reg(request):
     :return:
     """
 
+
     return HttpResponse("登陆页面")
