@@ -37,3 +37,10 @@ def bug(request):
 
     return HttpResponse("bug")
 
+def update(request):
+    """
+    更新功能
+    :param request:
+    :return:
+    """
+    return HttpResponse("更新功能")
