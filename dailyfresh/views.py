@@ -27,3 +27,13 @@ def add(request):
     """
 
     return HttpResponse("添加")
+
+def bug(request):
+    """
+    bug
+    :param request:
+    :return:
+    """
+
+    return HttpResponse("bug")
+
