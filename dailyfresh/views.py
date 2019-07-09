@@ -18,3 +18,4 @@ def reg(request):
 
     return HttpResponse("欢迎来到首页")
 
+
