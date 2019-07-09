@@ -18,3 +18,12 @@ def reg(request):
     """
 
     return HttpResponse("登陆页面")
+
+def add(request):
+    """
+    添加
+    :param request:
+    :return:
+    """
+
+    return HttpResponse("添加")

@@ -20,4 +20,6 @@ from dailyfresh import views
 urlpatterns = [
     path('index/', views.index),
     path('reg/', views.reg),
+    path('add/',views.add)
 ]
+
